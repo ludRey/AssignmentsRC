@@ -2,7 +2,7 @@ import time
 from socket import *
 
 # Set the server address and port
-server_address = ('localhost', 12000)
+server_address = ('10.0.0.1', 12000)
 
 # Create a UDP socket
 client_socket = socket(AF_INET, SOCK_DGRAM)
