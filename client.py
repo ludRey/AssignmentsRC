@@ -1,4 +1,4 @@
-from socket import*
+from socket import * ###
 import sys
 server_host= sys.argv[1]
 server_port= int(sys.argv[2])
